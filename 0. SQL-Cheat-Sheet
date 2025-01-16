@@ -124,3 +124,6 @@ DELETE FROM products WHERE color = 'Red';  -- Deletes rows based on a condition
 -- === UPDATE DATA ===
 UPDATE employees SET salary = salary * 1.1 WHERE department = 'HR';  -- Increases salary by 10% for HR employees
 UPDATE products SET color = 'Green' WHERE pname = 'Product 1';  -- Updates color of a specific product
+
+-- === SQL INJECTION ===
+or 1=1; ' -- 
